@@ -1,0 +1,25 @@
+{
+    "@context":[
+        "https://www.w3.org/2019/wot/td/v1"
+    ],
+    "@type":["Thing"],
+    "title": "WeatherControlThing",
+    "description": "A Thing that exposes actions to control SE weather",
+    "actions": {
+        "clear":{
+            "title": "clear",
+            "description": "commands clear weather",
+            "idempotent": true
+            },
+        "rain":{
+            "title": "rain",
+            "description": "commands rainy weather",
+            "idempotent": true
+            },
+        "thunder":{
+            "title": "thunder",
+            "description": "commands thundery weather",
+            "idempotent": true
+            }
+        }
+}
